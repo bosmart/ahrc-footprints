@@ -1,0 +1,8 @@
+**AHRC Peopling of the Tularosa Playa during the Last Glacial Maximum [AH/X001326/1]**
+
+As part of this grant a several open access algorithms have been created for academic use.  Licensing is reserved for academic use only. Commercial copyright is retained by Professors Marcin Budka and Matthew Bennett at Bournemouth University.  
+- `vgg3csv` is a simple tool that converts the csv output from the VIA annotation tool (https://www.robots.ox.ac.uk/~vgg/software/via/ ) to a format suitable for use in the Palaeontological Statistics Freeware PAST 4 (https://www.nhm.uio.no/english/research/resources/past/). Simply run in Google Co-lab or equivalent and upload the original csv, amend the file names in the code, run and download the re-formatted file. 
+- `ply_autorotate` is a simple tool that takes multiple ply 3D files and autorotates the principal plan so that it is orthogonal. This is designed for use with multiple files or very large 3D models. Important when creating depth rendered footprint files. 
+- `GPR-normalization` this algorithm is currently unpublished and a paper about this is in preparation.  Footprint Ground Penetrating Radar (GPR) surveys involve line spacing of circa 80-100 mm and sensitive to the electrical properties of the ground which change over time.  As a consequence, there is drift in these properties during multi-day surveys. This algorithm provides a solution using image normalisation techniques applied through a moving window which allows signal amplitudes to be compared across multiple survey days.  
+
+Links to YouTube videos demonstrating these algorithms are in development.  
